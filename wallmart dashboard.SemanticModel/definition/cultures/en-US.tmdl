@@ -1,0 +1,2617 @@
+cultureInfo en-US
+
+	linguisticMetadata =
+			{
+			  "Version": "4.1.0",
+			  "Language": "en-US",
+			  "Entities": {
+			    "walmart": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Walmart"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "walmart": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "walmart.store": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Walmart",
+			          "ConceptualProperty": "Store"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "store": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "accumulation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "collection": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "stock": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "supply": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "stockpile": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "hoard": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "mass": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "pile": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "storehouse": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        },
+			        {
+			          "storeroom": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        }
+			      ]
+			    },
+			    "walmart.date": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Walmart",
+			          "ConceptualProperty": "Date"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "date": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "moment": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "period": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "walmart.date.date_hierarchy": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Walmart",
+			          "VariationSource": "Date",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Date Hierarchy"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "date hierarchy": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "walmart.date.year": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Walmart",
+			          "VariationSource": "Date",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Date Hierarchy",
+			          "HierarchyLevel": "Year"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "year": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "date year": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "date yr": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "yr": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "moment year": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "period year": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "walmart.date.quarter": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Walmart",
+			          "VariationSource": "Date",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Date Hierarchy",
+			          "HierarchyLevel": "Quarter"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "quarter": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "date quarter": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "date qtr": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.833
+			          }
+			        },
+			        {
+			          "qtr": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.818
+			          }
+			        },
+			        {
+			          "moment quarter": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "period quarter": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "walmart.date.month": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Walmart",
+			          "VariationSource": "Date",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Date Hierarchy",
+			          "HierarchyLevel": "Month"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "month": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "date month": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "date mth": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "mth": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "moment month": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "period month": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "walmart.date.day": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Walmart",
+			          "VariationSource": "Date",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Date Hierarchy",
+			          "HierarchyLevel": "Day"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "day": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "date day": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "moment day": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "period day": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "walmart.weekly_sale": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Walmart",
+			          "ConceptualProperty": "Weekly_Sales"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "weekly sale": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Weekly_Sales": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "sale": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "weekly auction": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "auction": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "weekly transaction": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.475
+			          }
+			        },
+			        {
+			          "transaction": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        },
+			        {
+			          "weekly deal": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.461
+			          }
+			        },
+			        {
+			          "weekly trade": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.461
+			          }
+			        },
+			        {
+			          "weekly vending": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.461
+			          }
+			        },
+			        {
+			          "weekly retailing": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.461
+			          }
+			        },
+			        {
+			          "weekly selling": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.461
+			          }
+			        },
+			        {
+			          "deal": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.452
+			          }
+			        }
+			      ]
+			    },
+			    "walmart.holiday_flag": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Walmart",
+			          "ConceptualProperty": "Holiday_Flag"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "holiday flag": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Holiday_Flag": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "flag": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "holiday ensign": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "holiday pennant": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "holiday pennon": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "holiday emblem": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "holiday streamer": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "ensign": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "pennant": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "pennon": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "emblem": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "streamer": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        }
+			      ]
+			    },
+			    "walmart.temperature": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Walmart",
+			          "ConceptualProperty": "Temperature"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "temperature": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "infection": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "disease": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "illness": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "malaise": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "fever": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "hotness": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        },
+			        {
+			          "warmth": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        },
+			        {
+			          "heat": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.452
+			          }
+			        }
+			      ]
+			    },
+			    "walmart.fuel_price": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Walmart",
+			          "ConceptualProperty": "Fuel_Price"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "fuel price": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Fuel_Price": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "price": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "fuel value": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "fuel worth": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "fuel fee": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "fuel charge": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "fuel amount": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "fuel bill": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "fuel rate": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "fuel expense": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "fuel cost": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "fuel outlay": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        }
+			      ]
+			    },
+			    "walmart.cpi": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Walmart",
+			          "ConceptualProperty": "CPI"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "cpi": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "walmart.unemployment": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Walmart",
+			          "ConceptualProperty": "Unemployment"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "unemployment": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "joblessness": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "redundancy": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "idleness": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        }
+			      ]
+			    },
+			    "walmart.total_sales": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Walmart",
+			          "ConceptualProperty": "Total Sales"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "total sales": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "sales": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "total sale": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "aggregate sale": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "overall sale": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        }
+			      ]
+			    },
+			    "walmart.average_weekly_sales": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Walmart",
+			          "ConceptualProperty": "Average Weekly Sales"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "average weekly sales": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "sales": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "weekly sales": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "average weekly sale": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        },
+			        {
+			          "AVG WEEKLY": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "walmart.total_store": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Walmart",
+			          "ConceptualProperty": "Total Store"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "total store": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "aggregate store": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "overall store": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "total accumulation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "total collection": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "total stock": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "total supply": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "total stockpile": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "total hoard": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "total mass": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "total pile": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        }
+			      ]
+			    },
+			    "walmart.holiday_weeks": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Walmart",
+			          "ConceptualProperty": "Holiday Weeks"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "holiday weeks": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "walmart.average_temperature": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Walmart",
+			          "ConceptualProperty": "Average Temperature"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "average temperature": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "average infection": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "average disease": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "average illness": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "average malaise": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "average fever": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "average hotness": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.475
+			          }
+			        },
+			        {
+			          "average warmth": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.475
+			          }
+			        },
+			        {
+			          "average heat": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.461
+			          }
+			        },
+			        {
+			          "AVG TEMP": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "walmart.average_fuel_price": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Walmart",
+			          "ConceptualProperty": "Average Fuel Price"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "average fuel price": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "price": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "average fuel value": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "average fuel worth": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "average fuel fee": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "average fuel charge": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "average fuel amount": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "average fuel bill": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "average fuel rate": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "average fuel expense": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "average fuel cost": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "average fuel outlay": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        }
+			      ]
+			    },
+			    "walmart.holiday": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Walmart",
+			          "ConceptualProperty": "Holiday"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "holiday": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "break": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "leave": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "trip": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "outing": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "vacation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.452
+			          }
+			        },
+			        {
+			          "sabbatical": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.452
+			          }
+			        }
+			      ]
+			    },
+			    "walmart.year": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Walmart",
+			          "ConceptualProperty": "Year"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "year": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "yr": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "walmart.month": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Walmart",
+			          "ConceptualProperty": "Month"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "month": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "mth": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        }
+			      ]
+			    },
+			    "walmart.holiday_sales": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Walmart",
+			          "ConceptualProperty": "Holiday Sales"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "holiday sales": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "sales": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "holiday sale": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        }
+			      ]
+			    },
+			    "walmart.last_update": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Walmart",
+			          "ConceptualProperty": "Last Update"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "last update": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "update": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "end update": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "final update": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "closing update": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "concluding update": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "finishing update": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "former update": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "latest update": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "latter update": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "past update": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "remaining update": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "Data Update": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    }
+			  },
+			  "Relationships": {
+			    "walmart_date_date_hierarchy_has_walmart_date_year": {
+			      "Binding": {
+			        "ConceptualEntity": "Walmart"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "walmart.date.date_hierarchy": {
+			          "Target": {
+			            "Entity": "walmart.date.date_hierarchy"
+			          }
+			        },
+			        "walmart.date.year": {
+			          "Target": {
+			            "Entity": "walmart.date.year"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "walmart.date.date_hierarchy"
+			            },
+			            "Object": {
+			              "Role": "walmart.date.year"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "date_hierarchies_have_years"
+			        }
+			      ]
+			    },
+			    "walmart_date_has_date_hierarchy": {
+			      "Binding": {
+			        "ConceptualEntity": "Walmart"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "walmart.date": {
+			          "Target": {
+			            "Entity": "walmart.date"
+			          }
+			        },
+			        "walmart.date.date_hierarchy": {
+			          "Target": {
+			            "Entity": "walmart.date.date_hierarchy"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "walmart.date"
+			            },
+			            "Object": {
+			              "Role": "walmart.date.date_hierarchy"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dates_have_date_hierarchies"
+			        }
+			      ]
+			    },
+			    "walmart_has_last_update": {
+			      "Binding": {
+			        "ConceptualEntity": "Walmart"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "walmart": {
+			          "Target": {
+			            "Entity": "walmart"
+			          }
+			        },
+			        "walmart.last_update": {
+			          "Target": {
+			            "Entity": "walmart.last_update"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "walmart"
+			            },
+			            "Object": {
+			              "Role": "walmart.last_update"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "walmarts_have_last_update"
+			        }
+			      ]
+			    },
+			    "walmart_has_holiday_sales": {
+			      "Binding": {
+			        "ConceptualEntity": "Walmart"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "walmart": {
+			          "Target": {
+			            "Entity": "walmart"
+			          }
+			        },
+			        "walmart.holiday_sales": {
+			          "Target": {
+			            "Entity": "walmart.holiday_sales"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "walmart"
+			            },
+			            "Object": {
+			              "Role": "walmart.holiday_sales"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "walmarts_have_holiday_sales"
+			        }
+			      ]
+			    },
+			    "walmart_has_month": {
+			      "Binding": {
+			        "ConceptualEntity": "Walmart"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "walmart": {
+			          "Target": {
+			            "Entity": "walmart"
+			          }
+			        },
+			        "walmart.month": {
+			          "Target": {
+			            "Entity": "walmart.month"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "walmart"
+			            },
+			            "Object": {
+			              "Role": "walmart.month"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "walmarts_have_months"
+			        }
+			      ]
+			    },
+			    "walmart_has_year": {
+			      "Binding": {
+			        "ConceptualEntity": "Walmart"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "walmart": {
+			          "Target": {
+			            "Entity": "walmart"
+			          }
+			        },
+			        "walmart.year": {
+			          "Target": {
+			            "Entity": "walmart.year"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "walmart"
+			            },
+			            "Object": {
+			              "Role": "walmart.year"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "walmarts_have_years"
+			        }
+			      ]
+			    },
+			    "walmart_has_holiday": {
+			      "Binding": {
+			        "ConceptualEntity": "Walmart"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "walmart": {
+			          "Target": {
+			            "Entity": "walmart"
+			          }
+			        },
+			        "walmart.holiday": {
+			          "Target": {
+			            "Entity": "walmart.holiday"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "walmart"
+			            },
+			            "Object": {
+			              "Role": "walmart.holiday"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "walmarts_have_holidays"
+			        }
+			      ]
+			    },
+			    "walmart_has_average_fuel_price": {
+			      "Binding": {
+			        "ConceptualEntity": "Walmart"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "walmart": {
+			          "Target": {
+			            "Entity": "walmart"
+			          }
+			        },
+			        "walmart.average_fuel_price": {
+			          "Target": {
+			            "Entity": "walmart.average_fuel_price"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "walmart"
+			            },
+			            "Object": {
+			              "Role": "walmart.average_fuel_price"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "walmarts_have_average_fuel_price"
+			        },
+			        {
+			          "Adjective": {
+			            "Subject": {
+			              "Role": "walmart"
+			            },
+			            "Adjectives": [
+			              {
+			                "expensive": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Antonyms": [
+			              {
+			                "cheap": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Measurement": {
+			              "Role": "walmart.average_fuel_price"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "average_fuel_price_indicates_how_expensive_walmarts_are"
+			        }
+			      ]
+			    },
+			    "walmart_has_average_temperature": {
+			      "Binding": {
+			        "ConceptualEntity": "Walmart"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "walmart": {
+			          "Target": {
+			            "Entity": "walmart"
+			          }
+			        },
+			        "walmart.average_temperature": {
+			          "Target": {
+			            "Entity": "walmart.average_temperature"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "walmart"
+			            },
+			            "Object": {
+			              "Role": "walmart.average_temperature"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "walmarts_have_average_temperature"
+			        }
+			      ]
+			    },
+			    "walmart_has_holiday_weeks": {
+			      "Binding": {
+			        "ConceptualEntity": "Walmart"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "walmart": {
+			          "Target": {
+			            "Entity": "walmart"
+			          }
+			        },
+			        "walmart.holiday_weeks": {
+			          "Target": {
+			            "Entity": "walmart.holiday_weeks"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "walmart"
+			            },
+			            "Object": {
+			              "Role": "walmart.holiday_weeks"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "walmarts_have_holiday_weeks"
+			        }
+			      ]
+			    },
+			    "walmart_has_total_store": {
+			      "Binding": {
+			        "ConceptualEntity": "Walmart"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "walmart": {
+			          "Target": {
+			            "Entity": "walmart"
+			          }
+			        },
+			        "walmart.total_store": {
+			          "Target": {
+			            "Entity": "walmart.total_store"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "walmart"
+			            },
+			            "Object": {
+			              "Role": "walmart.total_store"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "walmarts_have_total_store"
+			        }
+			      ]
+			    },
+			    "walmart_has_average_weekly_sales": {
+			      "Binding": {
+			        "ConceptualEntity": "Walmart"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "walmart": {
+			          "Target": {
+			            "Entity": "walmart"
+			          }
+			        },
+			        "walmart.average_weekly_sales": {
+			          "Target": {
+			            "Entity": "walmart.average_weekly_sales"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "walmart"
+			            },
+			            "Object": {
+			              "Role": "walmart.average_weekly_sales"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "walmarts_have_average_weekly_sales"
+			        }
+			      ]
+			    },
+			    "walmart_has_total_sales": {
+			      "Binding": {
+			        "ConceptualEntity": "Walmart"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "walmart": {
+			          "Target": {
+			            "Entity": "walmart"
+			          }
+			        },
+			        "walmart.total_sales": {
+			          "Target": {
+			            "Entity": "walmart.total_sales"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "walmart"
+			            },
+			            "Object": {
+			              "Role": "walmart.total_sales"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "walmarts_have_total_sales"
+			        }
+			      ]
+			    },
+			    "walmart_has_unemployment": {
+			      "Binding": {
+			        "ConceptualEntity": "Walmart"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "walmart": {
+			          "Target": {
+			            "Entity": "walmart"
+			          }
+			        },
+			        "walmart.unemployment": {
+			          "Target": {
+			            "Entity": "walmart.unemployment"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "walmart"
+			            },
+			            "Object": {
+			              "Role": "walmart.unemployment"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "walmarts_have_unemployment"
+			        }
+			      ]
+			    },
+			    "walmart_has_cpi": {
+			      "Binding": {
+			        "ConceptualEntity": "Walmart"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "walmart": {
+			          "Target": {
+			            "Entity": "walmart"
+			          }
+			        },
+			        "walmart.cpi": {
+			          "Target": {
+			            "Entity": "walmart.cpi"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "walmart"
+			            },
+			            "Object": {
+			              "Role": "walmart.cpi"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "walmarts_have_cpis"
+			        }
+			      ]
+			    },
+			    "walmart_has_fuel_price": {
+			      "Binding": {
+			        "ConceptualEntity": "Walmart"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "walmart": {
+			          "Target": {
+			            "Entity": "walmart"
+			          }
+			        },
+			        "walmart.fuel_price": {
+			          "Target": {
+			            "Entity": "walmart.fuel_price"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "walmart"
+			            },
+			            "Object": {
+			              "Role": "walmart.fuel_price"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "walmarts_have_fuel_prices"
+			        },
+			        {
+			          "Adjective": {
+			            "Subject": {
+			              "Role": "walmart"
+			            },
+			            "Adjectives": [
+			              {
+			                "expensive": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Antonyms": [
+			              {
+			                "cheap": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Measurement": {
+			              "Role": "walmart.fuel_price"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "fuel_price_indicates_how_expensive_walmarts_are"
+			        }
+			      ]
+			    },
+			    "walmart_has_temperature": {
+			      "Binding": {
+			        "ConceptualEntity": "Walmart"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "walmart": {
+			          "Target": {
+			            "Entity": "walmart"
+			          }
+			        },
+			        "walmart.temperature": {
+			          "Target": {
+			            "Entity": "walmart.temperature"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "walmart"
+			            },
+			            "Object": {
+			              "Role": "walmart.temperature"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "walmarts_have_temperatures"
+			        }
+			      ]
+			    },
+			    "walmart_has_holiday_flag": {
+			      "Binding": {
+			        "ConceptualEntity": "Walmart"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "walmart": {
+			          "Target": {
+			            "Entity": "walmart"
+			          }
+			        },
+			        "walmart.holiday_flag": {
+			          "Target": {
+			            "Entity": "walmart.holiday_flag"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "walmart"
+			            },
+			            "Object": {
+			              "Role": "walmart.holiday_flag"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "walmarts_have_holiday_flags"
+			        }
+			      ]
+			    },
+			    "walmart_has_weekly_sale": {
+			      "Binding": {
+			        "ConceptualEntity": "Walmart"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "walmart": {
+			          "Target": {
+			            "Entity": "walmart"
+			          }
+			        },
+			        "walmart.weekly_sale": {
+			          "Target": {
+			            "Entity": "walmart.weekly_sale"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "walmart"
+			            },
+			            "Object": {
+			              "Role": "walmart.weekly_sale"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "walmarts_have_weekly_sales"
+			        },
+			        {
+			          "Adjective": {
+			            "Subject": {
+			              "Role": "walmart"
+			            },
+			            "Adjectives": [
+			              {
+			                "expensive": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Antonyms": [
+			              {
+			                "cheap": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Measurement": {
+			              "Role": "walmart.weekly_sale"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "weekly_sale_indicates_how_expensive_walmarts_are"
+			        }
+			      ]
+			    },
+			    "walmart_has_date": {
+			      "Binding": {
+			        "ConceptualEntity": "Walmart"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "walmart": {
+			          "Target": {
+			            "Entity": "walmart"
+			          }
+			        },
+			        "walmart.date": {
+			          "Target": {
+			            "Entity": "walmart.date"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "walmart"
+			            },
+			            "Object": {
+			              "Role": "walmart.date"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "walmarts_have_dates"
+			        }
+			      ]
+			    },
+			    "walmart_has_store": {
+			      "Binding": {
+			        "ConceptualEntity": "Walmart"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "walmart": {
+			          "Target": {
+			            "Entity": "walmart"
+			          }
+			        },
+			        "walmart.store": {
+			          "Target": {
+			            "Entity": "walmart.store"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "walmart"
+			            },
+			            "Object": {
+			              "Role": "walmart.store"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "walmarts_have_stores"
+			        }
+			      ]
+			    },
+			    "walmart_date_date_hierarchy_has_walmart_date_quarter": {
+			      "Binding": {
+			        "ConceptualEntity": "Walmart"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "walmart.date.date_hierarchy": {
+			          "Target": {
+			            "Entity": "walmart.date.date_hierarchy"
+			          }
+			        },
+			        "walmart.date.quarter": {
+			          "Target": {
+			            "Entity": "walmart.date.quarter"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "walmart.date.date_hierarchy"
+			            },
+			            "Object": {
+			              "Role": "walmart.date.quarter"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "date_hierarchies_have_quarters"
+			        }
+			      ]
+			    },
+			    "walmart_date_date_hierarchy_has_walmart_date_month": {
+			      "Binding": {
+			        "ConceptualEntity": "Walmart"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "walmart.date.date_hierarchy": {
+			          "Target": {
+			            "Entity": "walmart.date.date_hierarchy"
+			          }
+			        },
+			        "walmart.date.month": {
+			          "Target": {
+			            "Entity": "walmart.date.month"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "walmart.date.date_hierarchy"
+			            },
+			            "Object": {
+			              "Role": "walmart.date.month"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "date_hierarchies_have_months"
+			        }
+			      ]
+			    },
+			    "walmart_date_date_hierarchy_has_walmart_date_day": {
+			      "Binding": {
+			        "ConceptualEntity": "Walmart"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "walmart.date.date_hierarchy": {
+			          "Target": {
+			            "Entity": "walmart.date.date_hierarchy"
+			          }
+			        },
+			        "walmart.date.day": {
+			          "Target": {
+			            "Entity": "walmart.date.day"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "walmart.date.date_hierarchy"
+			            },
+			            "Object": {
+			              "Role": "walmart.date.day"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "date_hierarchies_have_days"
+			        }
+			      ]
+			    }
+			  },
+			  "Agents": {
+			    "Internal": {
+			      "Version": "1.1.0"
+			    }
+			  }
+			}
+		contentType: json
+

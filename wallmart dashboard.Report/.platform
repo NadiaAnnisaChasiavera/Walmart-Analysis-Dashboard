@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "Report",
+    "displayName": "wallmart dashboard"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "ebf2adc5-0681-4454-8d6b-0d5c1922fcba"
+  }
+}

@@ -1,0 +1,5 @@
+relationship f45e6a71-86e5-4f4e-bf10-95d5a8ede928
+	joinOnDateBehavior: datePartOnly
+	fromColumn: Walmart.Date
+	toColumn: LocalDateTable_dfb8c617-0186-4503-b851-ec7d37ab20bc.Date
+

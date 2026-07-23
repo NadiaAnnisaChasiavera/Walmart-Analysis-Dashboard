@@ -1,0 +1,161 @@
+table Walmart
+	lineageTag: 6c44dc6a-84be-48ac-aed9-8c89b7639527
+
+	measure 'Total Sales' = SUM(Walmart[Weekly_Sales])
+		formatString: \$#,0.0;(\$#,0.0);\$#,0.0
+		lineageTag: 433f5017-da60-458e-b775-fa7267ca0f55
+
+		annotation PBI_FormatHint = {"currencyCulture":"en-US"}
+
+	measure 'Average Weekly Sales' = AVERAGE(Walmart[Weekly_Sales])
+		formatString: \$#,0.00;(\$#,0.00);\$#,0.00
+		lineageTag: 25c18998-017b-46df-bd64-e6dee7904acc
+
+		annotation PBI_FormatHint = {"currencyCulture":"en-US"}
+
+	measure 'Total Store' = DISTINCTCOUNT(Walmart[Store])
+		formatString: 0
+		lineageTag: 5a454604-616c-43de-90f1-d5e0d232fe42
+
+	measure 'Holiday Weeks' = CALCULATE(COUNTROWS(Walmart), Walmart[Holiday_Flag] = 1)
+		formatString: 0
+		lineageTag: b19d5e05-d9be-45a8-abdc-28356fdcf1ac
+
+	measure 'Average Temperature' = AVERAGE(Walmart[Temperature])
+		lineageTag: e9022e07-f9ec-4662-9726-9af5a16af505
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	measure 'Average Fuel Price' = AVERAGE(Walmart[Fuel_Price])
+		formatString: \$#,0.00;(\$#,0.00);\$#,0.00
+		lineageTag: 20e423b6-4ff6-4fc8-8ccf-737aceca65c4
+
+		annotation PBI_FormatHint = {"currencyCulture":"en-US"}
+
+	measure 'Holiday Sales' = CALCULATE(SUM(Walmart[Weekly_Sales]),Walmart[Holiday_Flag] = 1)
+		formatString: \$#,0.00;(\$#,0.00);\$#,0.00
+		lineageTag: be47830c-0b0c-4e11-8d0f-5748e4d1304a
+
+		annotation PBI_FormatHint = {"currencyCulture":"en-US"}
+
+	measure 'Last Update' = FORMAT(MAX(Walmart[Date]), "dd MMM yyyy")
+		lineageTag: 2bec1712-bc98-4e87-981b-0bc26101adde
+
+	column Store
+		dataType: int64
+		formatString: 0
+		lineageTag: 68ed6129-bbe7-44cc-a1d0-0524e3996709
+		summarizeBy: sum
+		sourceColumn: Store
+
+		annotation SummarizationSetBy = Automatic
+
+	column Date
+		dataType: dateTime
+		formatString: Long Date
+		lineageTag: f0a215c7-e472-4c35-8b02-d527b3a48110
+		summarizeBy: none
+		sourceColumn: Date
+
+		variation Variation
+			isDefault
+			relationship: f45e6a71-86e5-4f4e-bf10-95d5a8ede928
+			defaultHierarchy: LocalDateTable_dfb8c617-0186-4503-b851-ec7d37ab20bc.'Date Hierarchy'
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation UnderlyingDateTimeDataType = Date
+
+	column Weekly_Sales
+		dataType: double
+		formatString: \$#,0.###############;(\$#,0.###############);\$#,0.###############
+		lineageTag: 8318fb42-3df5-4a27-8e83-0438b03ec3c8
+		summarizeBy: sum
+		sourceColumn: Weekly_Sales
+
+		annotation SummarizationSetBy = Automatic
+
+	column Holiday_Flag
+		dataType: int64
+		formatString: 0
+		lineageTag: b5acc3d1-cb8a-42c8-bdbb-672f485bb8d8
+		summarizeBy: sum
+		sourceColumn: Holiday_Flag
+
+		annotation SummarizationSetBy = Automatic
+
+	column Temperature
+		dataType: double
+		lineageTag: 25e6bc01-a3c9-45a8-b6ca-3a6c1c9d108c
+		summarizeBy: sum
+		sourceColumn: Temperature
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column Fuel_Price
+		dataType: double
+		lineageTag: 2cc1b6c4-e846-4e1a-a499-21e983460c38
+		summarizeBy: sum
+		sourceColumn: Fuel_Price
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column CPI
+		dataType: double
+		lineageTag: 85bee7d7-cf76-4ce2-80c4-65593dbeec7d
+		summarizeBy: sum
+		sourceColumn: CPI
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column Unemployment
+		dataType: double
+		lineageTag: 0215d83c-cc2f-47a1-80b1-599b793409a5
+		summarizeBy: sum
+		sourceColumn: Unemployment
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column Holiday = IF(Walmart[Holiday_Flag]=1,"Holiday","Non-Holiday")
+		lineageTag: 664f30f0-1871-4c82-b474-841ad95ba1ee
+		summarizeBy: none
+
+		annotation SummarizationSetBy = Automatic
+
+	column Year = YEAR(Walmart[Date])
+		formatString: 0
+		lineageTag: 7703129e-511d-4c1e-83a7-f3434ad8a43a
+		summarizeBy: sum
+
+		annotation SummarizationSetBy = Automatic
+
+	column Month = FORMAT(Walmart[Date], "MMMM")
+		lineageTag: 33fc57c3-1cae-4c0c-bbdf-6e44b10c3c59
+		summarizeBy: none
+
+		annotation SummarizationSetBy = Automatic
+
+	partition Walmart = m
+		mode: import
+		source =
+				let
+				    Source = Excel.Workbook(File.Contents("D:\TUGAS\dashboard\Walmart.xlsx"), null, true),
+				    Walmart_Sheet = Source{[Item="Walmart",Kind="Sheet"]}[Data],
+				    #"Promoted Headers" = Table.PromoteHeaders(Walmart_Sheet, [PromoteAllScalars=true]),
+				    #"Changed Type" = Table.TransformColumnTypes(#"Promoted Headers",{{"Store", Int64.Type}, {"Date", type date}, {"Weekly_Sales", type number}, {"Holiday_Flag", Int64.Type}, {"Temperature", type number}, {"Fuel_Price", type number}, {"CPI", type number}, {"Unemployment", type number}}),
+				    #"Sorted Rows" = Table.Sort(#"Changed Type",{{"Store", Order.Ascending}})
+				in
+				    #"Sorted Rows"
+
+	annotation PBI_ResultType = Table
+
+	annotation PBI_NavigationStepName = Navigation
+
